@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.DiscordBot", "TicketSystem.DiscordBot\TicketSystem.DiscordBot.csproj", "{1DB463DC-A6B8-4157-A69E-F16F5203911D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.DiscordBot.MySql", "TicketSystem.DiscordBot.MySql\TicketSystem.DiscordBot.MySql.csproj", "{1581D3B7-4ED7-419F-B170-43902407060C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DB463DC-A6B8-4157-A69E-F16F5203911D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB463DC-A6B8-4157-A69E-F16F5203911D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB463DC-A6B8-4157-A69E-F16F5203911D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB463DC-A6B8-4157-A69E-F16F5203911D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1581D3B7-4ED7-419F-B170-43902407060C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1581D3B7-4ED7-419F-B170-43902407060C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1581D3B7-4ED7-419F-B170-43902407060C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1581D3B7-4ED7-419F-B170-43902407060C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

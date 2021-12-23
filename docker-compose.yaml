@@ -1,0 +1,15 @@
+services:
+  ticketsystem-discordbot:
+    image: ghcr.io/iamsilk/ticketsystem-discordbot:latest
+    container_name: ticketsystem-discordbot
+    restart: unless-stopped
+    volumes:
+    - ticketsystem-discordbot:/data
+    networks:
+    - ticketsystem-discordbot
+
+volumes:
+  ticketsystem-discordbot: {}
+
+networks:
+  ticketsystem-discordbot: {}

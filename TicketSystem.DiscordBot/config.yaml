@@ -1,0 +1,14 @@
+﻿DiscordToken: "CHANGEME"
+
+Database:
+  ConnectionStrings:
+    Default: "Server=localhost; Port=3306; Database=ticketsystem; User Id=username; Password=password"
+
+Commands:
+  Prefix: "!"
+  DeleteReplyDelay:
+    Standard: 15 # seconds
+    Error: 15 # seconds
+
+Admins:
+- "AnExampleAdmin#1234"
