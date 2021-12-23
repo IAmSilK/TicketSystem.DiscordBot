@@ -1,10 +1,10 @@
 node {
     stage('Clone repository') {
-        git branch: 'main', credentialsId: 'github-app-IAmSilK', url: 'https://github.com/IAmSilK/TicketSystem.DiscordBot'
+        git branch: 'main', credentialsId: 'github-iamsilk', url: 'https://github.com/IAmSilK/TicketSystem.DiscordBot'
     }
     
     stage('Login to GitHub Container Registry') {
-        withCredentials([usernamePassword(credentialsId: 'GitHub-IAmSilK-Packages', passwordVariable: 'PAT', usernameVariable: 'USERNAME')]) {
+        withCredentials([usernamePassword(credentialsId: 'github-iamsilk', passwordVariable: 'PAT', usernameVariable: 'USERNAME')]) {
             sh '''
                 echo $PAT | docker login ghcr.io -u $USERNAME --password-stdin
             '''
